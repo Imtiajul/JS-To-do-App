@@ -41,7 +41,7 @@ todoBtn.addEventListener('click', function (event) {
       // creating the check button
       const checkButton = document.createElement('button');
       checkButton.className = 'check';
-      checkButton.title = "Check"
+      checkButton.title = "Done"
       
       checkButton.innerHTML = '<i class="fas fa-check">';
       todoDiv.appendChild(checkButton);
