@@ -34,18 +34,22 @@ todoBtn.addEventListener('click', function (event) {
       // creating the edit button 
       const editButton = document.createElement('button');
       editButton.className = 'edit';
+      editButton.title = "Edit"
       editButton.innerHTML = '<i class="fas fa-edit"></i>';
       todoDiv.appendChild(editButton);
 
       // creating the check button
       const checkButton = document.createElement('button');
       checkButton.className = 'check';
+      checkButton.title = "Check"
+      
       checkButton.innerHTML = '<i class="fas fa-check">';
       todoDiv.appendChild(checkButton);
 
       // creating the trash button 
       const trashButton = document.createElement('button');
       trashButton.className = 'trash';
+      trashButton.title = "Delete"
       trashButton.innerHTML = '<i class="fas fa-trash"></i>';
       todoDiv.appendChild(trashButton);
 
